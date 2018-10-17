@@ -8,29 +8,11 @@
     <url>http://www.yealink.com</url>
 	<templatetype>supported</templatetype>
     <models>
-      <model ua="SIP-T19P_E2" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T19P E2</model>
-      <model ua="SIP-T19_E2" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T19 E2</model>
-      <model ua="SIP-T21P_E2" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T21P E2</model>
-      <model ua="SIP-T21_E2" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T21 E2</model>
-      <model ua="SIP-T23P" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T23P</model>
-      <model ua="SIP-T23G" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T23G</model>
-      <model ua="SIP-T27P" defaultlogo="yealinkt28.dob" logowidth="236" logoheight="82" logobitdepth="1">Yealink T27P</model>
-      <model ua="SIP-T27G" defaultlogo="yealinkt28.dob" logowidth="236" logoheight="82" logobitdepth="1">Yealink T27G</model>
-      <model ua="SIP-T29G" defaultlogo="yealinkt46.png" logowidth="400" logoheight="272" logobitdepth="24">Yealink T29G</model>
-      <model ua="SIP-T40P" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T40P</model>
-      <model ua="SIP-T40G" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T40G</model>
-      <model ua="SIP-T41S" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T41S</model>
-      <model ua="SIP-T41P" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T41</model>
-      <model ua="SIP-T42S" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T42S</model>
-      <model ua="SIP-T42G" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T42</model>
-      <model ua="SIP-T46S" defaultlogo="yealinkt46.png" logowidth="400" logoheight="272" logobitdepth="24">Yealink T46S</model>
-      <model ua="SIP-T46G" defaultlogo="yealinkt46.png" logowidth="400" logoheight="272" logobitdepth="24">Yealink T46</model>
-      <model ua="SIP-T48S" defaultlogo="yealinkt48.png" logowidth="800" logoheight="480" logobitdepth="24">Yealink T48S</model>
-      <model ua="SIP-T48G" defaultlogo="yealinkt48.png" logowidth="800" logoheight="480" logobitdepth="24">Yealink T48</model>
-      <model ua="SIP-T52S" defaultlogo="yealinkt52.png" logowidth="320" logoheight="240" logobitdepth="24">Yealink T52S</model>
-      <model ua="SIP-T54S" defaultlogo="yealinkt46.png" logowidth="400" logoheight="272" logobitdepth="24">Yealink T54S</model>
+      <model ua="SIP-T21P_E2" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">PPL Yealink T21P E2</model>
+      <model ua="SIP-T27G" defaultlogo="yealinkt28.dob" logowidth="236" logoheight="82" logobitdepth="1">PPL Yealink T27G</model>
+      <model ua="SIP-T29G" defaultlogo="yealinkt46.png" logowidth="400" logoheight="272" logobitdepth="24">PPL Yealink T29G</model>
     </models>
-    <description>Yealink T4X SIP Phone</description>
+    <description>PPL Yealink T4X SIP Phone</description>
     <parsers>
       <parser>BLF</parser>
     </parsers>
@@ -5669,7 +5651,7 @@ programablekey.2.type = 47
 programablekey.2.line = 1
 programablekey.2.value =
 programablekey.2.history_type =
-programablekey.2.label = 3CX PBook
+programablekey.2.label = PLV PBook
 programablekey.2.xml_phonebook =
 
 programablekey.3.type =
@@ -12628,7 +12610,7 @@ remote_phonebook.data.1.url = %%PROVLINKLOCAL%%/yealink_phonebook.xml
 {ELSE}
 remote_phonebook.data.1.url = %%PROVLINK%%/yealink_phonebook.xml
 {ENDIF}
-remote_phonebook.data.1.name = 3CX Phonebook 
+remote_phonebook.data.1.name = PLV Phonebook 
 
 remote_phonebook.data.2.url =
 remote_phonebook.data.2.name =
@@ -12856,6 +12838,17 @@ wui.quick_login = 1
 phone_setting.backgrounds_with_dsskey_unfold
 lcl.datetime.date.format = 
 phone_setting.idle_dsskey_and_title.transparency=
+
+#######################################################################################
+##                                     Key Layout                                    ##          
+#######################################################################################
+programablekey.3.type = 13
+programablekey.3.value =  
+programablekey.3.label =  
+programablekey.4.type = 13
+programablekey.4.value = 6500
+programablekey.4.label = Tech
+
 
 ]]></deviceconfig>
     </device>
