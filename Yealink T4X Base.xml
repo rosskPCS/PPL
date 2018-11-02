@@ -8,11 +8,11 @@
     <url>http://www.yealink.com</url>
 	<templatetype>supported</templatetype>
     <models>
-      <model ua="SIP-T21P_E2" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">PPL Yealink T21P E2</model>
-      <model ua="SIP-T27G" defaultlogo="yealinkt28.dob" logowidth="236" logoheight="82" logobitdepth="1">PPL Yealink T27G</model>
-      <model ua="SIP-T29G" defaultlogo="yealinkt46.png" logowidth="400" logoheight="272" logobitdepth="24">PPL Yealink T29G</model>
+      <model ua="SIP-T21P_E2" defaultlogo="yealinkt22.dob" logowidth="132" logoheight="64" logobitdepth="1">Yealink T21P E2-PLV Library</model>
+      <model ua="SIP-T27G" defaultlogo="yealinkt28.dob" logowidth="236" logoheight="82" logobitdepth="1">Yealink T27G-PLV Library</model>
+      <model ua="SIP-T29G" defaultlogo="yealinkt46.png" logowidth="400" logoheight="272" logobitdepth="24">Yealink T29G-PLV Library</model>
     </models>
-    <description>PPL Yealink T4X SIP Phone</description>
+    <description>PLV Library Yealink T4X SIP Phone</description>
     <parsers>
       <parser>BLF</parser>
     </parsers>
@@ -2256,7 +2256,7 @@ features.special_auto_answer_tone =
 features.anonymous_response_code =
 
 # Only applicable to SIP-T46G/T48G/T29G/T48S/T46S IP phones
-features.config_dsskey_length =
+features.config_dsskey_length = 2
 
 #The following parameter only applicable to V80
 features.reboot_in_talk_enable =
